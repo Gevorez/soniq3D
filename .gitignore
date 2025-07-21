@@ -39,3 +39,12 @@
 
 # debug information files
 *.dwo
+
+# Build artifacts
+build/
+*.so
+*.o
+*.pyd
+*.pyc
+__pycache__/
+
