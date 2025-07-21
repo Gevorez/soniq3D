@@ -5,5 +5,8 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..',
 import soniq3d
 
 engine = soniq3d.Engine()
-engine.process_file("example.wav")
-print(engine.get_mesh())
+engine.generate_orb(32)
+mesh = engine.get_mesh()
+
+print(f"Generated mesh with {len(mesh)} points.")
+print(mesh[:10])  # first 10 points

@@ -9,5 +9,6 @@ PYBIND11_MODULE(soniq3d, m)
     py::class_<Engine>(m, "Engine")
         .def(py::init<>())
         .def("process_file", &Engine::processFile)
+        .def("generate_orb", &Engine::generateOrb)
         .def("get_mesh", &Engine::getMesh);
 }
