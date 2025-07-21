@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "WSL",
+      "includePath": [
+        "${workspaceFolder}/src",
+        "/usr/include",
+        "/usr/include/x86_64-linux-gnu",
+        "/usr/include/python3.12",
+        "/usr/include/pybind11"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,3 @@
+/home/gevorez/projects/soniq3D/build/CMakeFiles/soniq3d.dir
+/home/gevorez/projects/soniq3D/build/CMakeFiles/edit_cache.dir
+/home/gevorez/projects/soniq3D/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -shared  -o soniq3d.cpython-312-x86_64-linux-gnu.so CMakeFiles/soniq3d.dir/bindings/soniq3d_bindings.cpp.o CMakeFiles/soniq3d.dir/src/Engine.cpp.o  -lfftw3 -lportaudio -lasound -lm -lpthread /usr/lib/x86_64-linux-gnu/libfftw3.so 
